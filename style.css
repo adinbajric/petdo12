@@ -1,0 +1,910 @@
+@font-face{
+    font-family: 'SF Pro Display';
+    src: url(fonts/FontsFree-Net-SFProDisplay-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: 'SF Pro Text';
+    src: url(fonts/FontsFree-Net-SFProText-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+   }
+
+body{
+    overflow-x: hidden;    
+}
+
+nav{
+    display: flex;
+    padding: 60px 0 0 141px; 
+    width: 100%;
+    height: 46px;
+    align-items: center;
+}
+
+.chapter-1{
+    background: linear-gradient(270deg, rgba(84,194,231,1) 0%, rgba(255,255,255,1) 79%);      
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 600px;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.link{    
+    font: 16px 'SF Pro Display';    
+    font-weight: 600;
+    text-decoration: none;
+    opacity: 0.5;
+    color: #1E366F;
+}
+
+.link:hover{
+    font-size: 18px;
+    opacity: 1;
+}
+
+.link-bold{
+    opacity: 1;
+}
+
+.nav-links p{
+    font: 16px 'SF Pro Display' ;
+    font-weight: 600;
+    opacity: 0.1;
+}
+
+#logo-pic{
+    width: 120px;
+    height: 46px;
+}
+
+.container-1{
+    display: flex;    
+}
+
+.cont{
+    padding-left: 141px;
+    padding-top: 140px;
+    width: 40%;
+    color: #1E366F;
+}
+
+.cont1-imgs{   
+    margin-left: 10%;
+    margin-top: -60px;    
+}
+
+.img-doctor{
+    width: 1121px;
+    height: 100%; 
+      
+}
+
+.container-1 h1{
+    font: 62px 'SF Pro Display';
+    font-weight: 900;
+    width: 429px;
+    height: 202px;    
+}
+
+.container-1 h5{
+    width: 307px;
+    height: 54px;
+    font-size: 21px;
+    font-family: 'SF Pro Text';
+    opacity: 0.6;
+}
+
+.btn{
+    background: #54C2E7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 339px;
+    height: 52px;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.btn-search{
+   margin-top: 90px; 
+}
+
+.specialities{
+    margin-left: 141px;
+    height: 200px;
+    padding-top: 30px;       
+}
+
+.specialities-imgs{
+    white-space: nowrap;
+    overflow-x: scroll; 
+}
+
+.specialities-imgs::-webkit-scrollbar {
+    display: none;
+}
+
+.specialities h5{
+    font-family: 'SF Pro Display';
+    color: #1E366F;
+    font-size: 20px;
+    opacity: 50%;
+}
+
+.img-spec{
+    width: 90px;
+    height: 89px;
+    margin:24px 46px 0 0;
+}
+
+.chapter-2{
+    height: 698px;
+    background: transparent url('img/BG_2_green.svg') 0% 0% no-repeat padding-box;
+    background-size:cover;
+    display: flex;
+}
+
+.container-2{
+    margin-left: 141px;
+    margin-top: 72px;
+    width: 50%;
+}
+
+.container-2 h1{
+    max-width: 479px;
+    height: 147px;
+    font-family: 'SF Pro Display';
+    color: #1E366F;
+    font-size: 42px;
+    line-height: 64px;
+    font-weight: bold;
+}
+
+.container-2 h5{
+    font-family: 'SF Pro Text';
+    padding-top: 38px;
+    font-size: 20px;
+    color: #1E366F;
+    font-weight: bold;
+}
+
+.list-doctors{
+    font-family: 'SF Pro Text';
+    padding-top: 30px;
+    color: #1E366F;
+    opacity: 100%;
+    line-height: 42px;
+    font-size: 20px;
+    padding-left: 18px;
+}
+
+.btn-practice{
+    margin-top: 62px;
+}
+
+.img-medicine{
+    width: 434px;
+    height: auto;
+    margin-top: 178px;
+}
+
+.img-medicine img{
+    max-width: 100%;
+    max-height: 100%;	
+}
+
+.img-medicine h1{
+    display: none;
+}
+
+.collor{
+    color: #54C2E7;
+    font-size: 64px;
+}
+
+.chapter-3{    
+    background: linear-gradient(40deg, rgba(255,183,85,0.4) 0%, rgba(255,255,255,1) 50%);  
+    display: flex;    
+}
+
+.img-track {
+    width: 720px;
+    height: auto;
+    margin-left: 70px;
+    margin-top: 25px;    
+}
+
+.img-track img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container-3{
+    padding-left: 55px;
+    color: #1E366F;
+    margin-top: 64px;    
+}
+
+.img-pulse{
+    max-width: 672px;
+    height: auto;  
+}
+
+.img-pulse img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container-3-cont{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-3 h1{
+    font-family: 'SF Pro Display';
+    font-weight: bold;
+    color: #1E366F;
+    font-size: 42px;
+    line-height: 54px;
+    margin-top: 23px;
+}
+
+.container-3 h5{
+    font-family: 'SF Pro Text';
+    opacity: 0.6;
+    font-size: 21px;
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+
+.btn-started{
+   margin-top: 20px;
+}
+
+.chapter-4{
+    height: auto;
+    background: transparent url('img/BG_4_light_blue.svg') 0% 0% no-repeat padding-box;   
+    background-size:cover;    
+}
+
+.imgs-clinics{
+    display: flex;    
+    width: 100%;
+    justify-content: space-around;
+}
+
+.container-4{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 40px;
+    text-align: center;     
+}
+
+.imgs-clinics-2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 100px;    
+}
+
+.container-4 h2{
+    font-family: 'Caveat', cursive;
+    color: #1E366F;
+    width: 50%;
+    text-align: center;
+    font-size: 34px;
+} 
+
+.logo-1{
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 73px -31px rgba(0,0,0,0.75);
+    margin-top: 73px;
+}
+
+.logo-2{
+    width: 150px;
+    height: 150px;    
+}
+
+.logo-3{    
+    width: 197px;
+    height: 197px;
+}
+
+.floss{
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 73px -31px rgba(0,0,0,0.75);
+    margin-top: 91px;
+}
+
+
+.logo-floss-1{    
+    width: 157px;
+    height: 157px;
+    margin-top: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 73px -31px rgba(0,0,0,0.75);
+}
+
+.logo-koz{
+    width: 65px;
+    height: 65px;
+    margin:70px 0px 0px 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 73px -31px rgba(0,0,0,0.75);
+}
+
+.logo-koz-2{
+    max-width: 130px;
+    max-height: 130px;
+    margin-right:100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 73px -31px rgba(0,0,0,0.75);
+}
+
+.chapter-5{
+    display: flex;
+    height: 502px;
+    background:  #88E5DE;
+    background-size:cover;    
+}
+
+.container-5{
+    margin-top: 94px;
+    max-width: 412px;
+    margin-left: 100px;
+}
+
+.img-mobile{
+    width: 443px;
+    height: 440px;
+    text-align: center;
+    margin: 80px 0 0 70px;
+}
+
+.img-mobile img{
+    object-fit: cover;
+    height: 422px;
+    width: 280px;
+    object-position: 0 0;
+}
+
+.img-find{
+    box-shadow: 0px 0px 0px 12px rgba(255,255,255,1);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+
+.container-5 h1{
+    color: #1E366F;
+    font-size: 42px;
+    font-family: 'SF Pro Display';
+}
+
+.container-5 h5{
+    font-family: 'SF Pro Text';
+    margin-top: 31px;
+    color: #1E366F;
+    font-size: 21px;
+    margin-bottom: 48px;
+    height: 56px;
+    opacity: 0.6;
+}
+
+.download-links{
+    display: flex;
+}
+
+.img-google{
+    width: 45%;
+    height: 47px;
+}
+
+.img-google img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-apple{
+    width: 45%;
+    height: 47px;
+    margin-right: 10px;       
+}
+
+.img-apple img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer{
+    height: 397px;
+    font-family: 'Muli', sans-serif;
+    padding-top: 65px;
+    color: #575585;    
+}
+
+.footer-container{
+    display: flex;
+}
+
+.footer-cont{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+
+.foot-ul{
+    list-style: none;
+    margin-top: 17px;
+}
+
+.foot-ul li{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;    
+}
+
+.foot-ul a{
+    text-decoration: none;
+    color:#575585; ;
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: column;
+    width: 100px; 
+    
+}
+
+.about p{
+    font-weight: 700;
+}
+
+.footer-reg{
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    height: 90px;
+    background: #F5F5F5;
+    margin-top: 54px;
+    color: #575585;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+.icons{
+    padding-bottom: 17px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    nav{            
+        padding-left: 50px; 
+    }
+    .cont{
+        padding-left: 50px;
+    }
+
+    .specialities{
+        margin-left: 50px;
+    }
+
+    .img-track {        
+        margin-left: 25px;            
+    }
+
+    .container-2 h1{
+        font-size: 30px;
+    }
+
+    .collor{
+        font-size: 44px;
+     }
+
+    .container-3{
+        padding-left: 20px;
+        padding-bottom: 20px;
+        color: #1E366F;
+        margin-top: 34px;    
+    }
+
+    .btn-started{
+        width: 100%;
+    }
+
+    .btn-practice{
+        width: 100%;
+    }
+
+    .container-2{
+        margin-left: 50px;        
+    }
+    
+    .list-doctors{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .logo-koz-2{
+        width: 98px;
+        height: 98px;
+        margin:50px 0 0 0;
+    
+    }
+
+    .logo-koz{        
+        margin:70px 0px 0px 0px;
+    }
+
+    .logo-floss-1{
+        width: 98px;
+        height: 98px;
+        margin-top: 150px;
+    }
+
+
+@media only screen and (max-width: 600px) {
+
+    nav{
+        width: 100%;
+        height: 72px;
+        padding: 0px;        
+    }
+ 
+    .nav-links{
+        position: absolute; 
+        flex-direction: column; 
+        background: #ffffff;
+        top: 71px;
+        height: 50vh;
+        width: 50%;
+        align-content: flex-start;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-out;
+    }
+
+    .active{
+        transform: translateX(0%);        
+    }  
+
+    #logo-pic{
+        width: 71px;
+        height: 24px;
+        margin-left: 16px;
+        margin-top: 0;
+    }
+
+    .hamburger{
+        display: block;
+        margin-left: 16px;
+    }
+
+   
+    .separator{
+        display: none;
+    }
+    
+    .cont{
+        padding-left: 0;
+    }
+
+    .chapter-1{
+        background: #ffffff;
+        height: auto;
+    }
+
+    .container-1{
+        flex-direction: column-reverse;
+        height: auto;        
+    }
+
+    .cont{
+        display:inline-block;
+        padding-left: 0;
+        padding-top: 0;
+        height: 290px; 
+        width: 100%;      
+    }
+
+    .cont1-imgs{
+        width: 100%;
+        background: transparent linear-gradient(270deg, #54C2E7 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+        margin: 0 auto;  
+        height: 274px;     
+        text-align: center;          
+    }
+
+    .img-doctor{
+        width: 390px;
+        height: 100%;
+        
+    }   
+
+    .container-1 h1{
+        height: 139px;
+        width: 90%;
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 44px;
+        padding-top: 18px;
+        margin: 0 24px;     
+    }
+
+    .collor{
+        font-size: 42px;
+    }
+
+    .container-1 h5{
+        margin: 12px 24px 0 24px;
+        padding-top: 18px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .btn-search{
+        margin-top: 40px;
+        padding-top: 0px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .specialities{
+        white-space: nowrap;
+        overflow-x: scroll;
+        margin: 52px 0 0 24px;
+        padding-left: 0;
+        padding-top: 0px;
+        height: 140px;
+    }
+
+    .specialities::-webkit-scrollbar {
+        display: none;
+    }  
+
+    .specialities h5{    
+        font-size: 18px;        
+    }
+
+    .img-spec{
+        width: 68px;
+        height: 68px;
+        margin:15px 16px 0 0;
+    }
+
+    .chapter-2{
+        flex-direction: column-reverse;
+        height: auto;
+        padding-top: 24px;
+        background: linear-gradient(258deg, rgba(0,251,193,0.1) 0%, rgba(255,255,255,1) 100%);       
+    }
+
+    .img-medicine{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container-2{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 63px;
+        padding-bottom: 44px;     
+        
+    }
+
+    .container-2 h5{
+        padding-top: 0;
+    }
+
+
+    .container-2 h1{
+        display: none;
+    }
+
+    .list-doctors{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .img-medicine h1{
+        display: block;
+        font-family: 'SF Pro Display';
+        color: #1E366F;
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 67px;
+    }
+
+    .btn-practice{
+        display: none;
+    }
+
+    .chapter-3{
+        flex-direction: column-reverse;
+        height: auto;        
+        background: linear-gradient(26deg, rgba(255,183,85,0.3) 0%, rgba(255,255,255,1) 100%) 0% 0% no-repeat padding-box;
+    }
+
+    .img-track{        
+        height: auto;
+        margin: 0 auto;
+        width: 100%;   
+        
+    }
+
+    .img-pulse{
+        width: 100%;
+        text-align: right;        
+    }
+
+    .pulse{
+        width: 95%;
+    }
+
+    .container-3-cont h5{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .btn-started{
+        display: none;
+    }
+
+    .container-3{
+        width: 100%;
+        margin-top: 55px;
+        padding-left: 0;
+    }
+
+    .chapter-4{
+        height: auto;
+    }
+
+    .h2-hide{
+        display: none;
+    }
+
+    .logo-1{
+        width: 75px;
+        height: 75px;
+    }
+
+    .logo-3{
+        width: 127px;
+        height: 127px;
+    }
+
+    .imgs-clinics{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container-4 h2{
+        width: 90%;
+    }
+
+    .logo-floss-1{
+        display: none;
+    }
+
+    .logo-2{
+        display: none
+    }
+
+    .btn-join{
+        width: 327px;
+    }
+
+    .logo-koz-2{
+        width: 98px;
+        height: 98px;
+        margin:50px 0 0 0;
+    
+    }
+
+    .logo-koz{        
+        margin:70px 0px 0px 0px;
+    }
+
+    .chapter-5{
+        height: auto;
+        flex-direction: column-reverse;
+        overflow-y: hidden;
+    }
+
+
+    .container-5{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 26px;
+    }
+
+    .img-mobile{
+        margin: 0 auto;
+        width: 100%;
+        padding: 40px 0 0 0;
+    } 
+
+    .container-5 h1{
+        font-size: 34px;
+    }
+
+    footer{        
+        height: auto;        
+        padding-top: 32px;
+    }
+
+    .footer-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer-cont{
+        flex-direction: column;           
+    }
+
+    .about{
+        padding-top: 30px;
+    }
+
+    .footer-icons{
+        justify-content: center;
+    }
+
+}
+    
+
+
+
+
+
+
+  
+
+    
+
+
+
+    
+   
+    
+
+    
+
+
+
+
+
+
+
+
+
